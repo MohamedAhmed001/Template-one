@@ -1,0 +1,544 @@
+/* Start Global Rulez */
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+}
+
+h2, h3 {
+  font-family: 'Courgette', cursive;
+  color: #777;
+  display: block;
+  text-transform: capitalize;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* End Global Rulez */
+/* Start Header */
+.header .Slider {
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 600px;
+}
+
+.header .Slider .intro {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+
+.header .Slider .intro h2 {
+  margin: 0 auto;
+  font-size: 60px;
+  border-top: 4px solid #ddd;
+  border-bottom: 4px solid #ddd;
+  padding: 8px 0;
+  width: 750px;
+  color: #FFEB3B;
+  text-shadow: 4px 3px #3f4042;
+}
+
+.header .Slider .intro button {
+  background: none;
+  margin-top: 30px;
+  font-size: 20px;
+  border: 3px solid #ddd;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #FFEB3B;
+  text-shadow: 4px 3px #3f4042;
+  cursor: pointer;
+  font-family: 'Courgette', cursive;
+}
+
+.header .navbar {
+  background-color: #252F31;
+  color: #FFF;
+  overflow: hidden;
+}
+
+.header .navbar h2 {
+  float: left;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.header .navbar h2 span {
+  color: #2ecc71;
+}
+
+.header .navbar ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+  font-family: 'Courgette', cursive;
+}
+
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+}
+
+.header .navbar ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+  color: #30B576;
+}
+
+/* End Header */
+/* Start Features */
+.features {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 40px 0 50px 0;
+}
+
+.features .feat {
+  width: 33.33333333%;
+  float: left;
+  height: 150px;
+}
+
+.features .feat h2 {
+  text-transform: capitalize;
+  color: #777;
+}
+
+.features .feat p {
+  line-height: 1.7;
+  color: #888;
+}
+
+/* End Features */
+/* Start About-me */
+.about-me {
+  background-color: #F2F2F2;
+  overflow: hidden;
+}
+
+.about-me .image {
+  width: 40%;
+  float: left;
+  height: 468px;
+}
+
+.about-me .image img {
+  width: 100%;
+}
+
+.about-me .info {
+  width: 60%;
+  float: left;
+}
+
+.about-me .info>h2 {
+  margin: 40px 0 20px 40px;
+}
+
+.about-me .info>p {
+  margin: 0px 0 10px 40px;
+  text-align: justify;
+}
+
+.about-me .info>p:last-of-type {
+  margin-top: 25px;
+  text-align: justify;
+}
+
+.about-me .info p {
+  line-height: 1.6;
+  color: #777;
+}
+
+.about-me .info .Hobbies {
+  overflow: hidden;
+  margin: 10px 0 0 40px;
+}
+
+.about-me .info .Hobbies .content {
+  float: left;
+  width: 50%;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.about-me .info .Hobbies .content .icon {
+  float: left;
+  width: 12%;
+  margin-right: 5%;
+}
+
+.fa-2x {
+  color: #2ecc71;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.about-me .info .Hobbies .content .text {
+  float: left;
+  width: 83%;
+}
+
+.about-me .info .Hobbies .content .text h3 {
+  margin-bottom: 5px;
+}
+
+.about-me .info .Hobbies .content .text p {
+  margin-top: 0;
+}
+
+/* End About-me */
+/* Start My-Skills */
+.My-Skills {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.My-Skills .skills, .My-Skills .progress {
+  float: left;
+  width: 50%;
+}
+
+.My-Skills .skills h2 {
+  margin: 40px 0 20px 40px;
+}
+
+.My-Skills .skills p {
+  margin: 0px 0 10px 40px;
+  text-align: justify;
+  line-height: 1.6;
+  color: #777;
+}
+
+.My-Skills .skills p:last-of-type {
+  margin-top: 25px;
+  text-align: justify;
+}
+
+.My-Skills .skills .button {
+  background: none;
+  border: 3px solid #2DCC70;
+  padding: 10px 30px;
+  color: #2DCC70;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: 'Courgette', cursive;
+}
+
+.My-Skills .progress .technique {
+  margin-left: 50px;
+}
+
+.My-Skills .progress .technique div {
+  background-color: #F2F2F2;
+  height: 25px;
+}
+
+.My-Skills .progress .technique div span {
+  background-color: #2dcc70;
+  display: block;
+  height: 25px;
+  text-align: right;
+  line-height: 25px;
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* End My-Skills */
+/* Start My-Resume */
+.My-Resume {
+  background-color: #F2F2F2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-align: center;
+}
+
+.My-Resume p {
+  width: 1100px;
+}
+
+.My-Resume .button {
+  background: none;
+  border: 3px solid #2DCC70;
+  padding: 10px 30px;
+  color: #2DCC70;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+/* End My-Resume */
+/* Start My-Education */
+.My-Education {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.My-Education .Education h2 {
+  margin: 25px 0 20px 40px;
+}
+
+.My-Education .Education p {
+  margin: 0px 0 10px 40px;
+  line-height: 1.6;
+  color: #777;
+}
+
+.My-Education .Education p:last-of-type {
+  margin-top: 25px;
+}
+
+.My-Education .Education {
+  float: left;
+  width: 50%;
+  margin-right: 5%;
+}
+
+.My-Education .teq {
+  float: left;
+  width: 45%;
+}
+
+.My-Education .teq h3 {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.My-Education .teq span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.My-Education .teq span:first-of-type {
+  color: #777;
+}
+
+.My-Education .teq span:last-of-type {
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: #2DCC70;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.My-Education .teq .cerficate hr {
+  height: 1px;
+  border: 0px;
+  background-color: #555;
+  margin: 20px 0px;
+}
+
+.My-Education .teq p {
+  color: #777;
+  line-height: 1.7;
+}
+
+/* End My-Education */
+/* Start My-Testemonials */
+.My-Testemonials {
+  background-color: #F2F2F2;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.My-Testemonials q {
+  line-height: 1.6;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  color: #999;
+}
+
+.My-Testemonials h3 {
+  margin-bottom: 30px;
+}
+
+.My-Testemonials ul {
+  list-style: square;
+  padding: 0;
+  text-align: center;
+}
+
+.My-Testemonials ul li {
+  display: inline-block;
+  border: 4px solid #2DCC70;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.My-Testemonials ul li.active,
+.My-Testemonials ul li:hover {
+  background-color: #2DCC70;
+}
+
+/* End My-Testemonials */
+/* Start My-Portfolio */
+.My-Portfolio {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.My-Portfolio p {
+  padding-bottom: 30px;
+  line-height: 1.7;
+  color: #777;
+}
+
+.My-Portfolio .our-work {
+  overflow: hidden;
+}
+
+.My-Portfolio .our-work>div {
+  float: left;
+  width: 33.33333333%;
+  margin-bottom: 10px;
+}
+
+.My-Portfolio .our-work>div img {
+  width: 92%;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+/* End My-Portfolio */
+/* Start Contact Me */
+.Contact-Me {
+  background-color: #252F31;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.Contact-Me .info h2 {
+  color: #fff;
+  margin-left: 40px;
+}
+
+.Contact-Me .info p {
+  color: #6A6E71;
+  margin-left: 40px;
+  line-height: 1.7;
+}
+
+.Contact-Me .info strong {
+  color: #D1D6DA;
+}
+
+.Contact-Me .info {
+  width: 50%;
+  float: left;
+  margin-right: 5%
+}
+
+.Contact-Me .form {
+  width: 45%;
+  float: left;
+}
+
+.Contact-Me .form label {
+  display: block;
+  margin: 8px 0;
+  color: #D1D6DA;
+}
+
+.Contact-Me .form input[type='text'] {
+  background-color: #4B5557;
+  color: #FFF;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.Contact-Me .form textarea {
+  background-color: #4B5557;
+  color: #FFF;
+  padding: 10px;
+  height: 300px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.Contact-Me .form button {
+  background-color: #191E22;
+  color: #FFF;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 10px;
+  font-family: 'Courgette', cursive;
+font-weight: bold;
+cursor: pointer;
+}
+
+/* End Contact Me */
+/* Start Footer */
+.Footer {
+  background-color: #191E22;
+  color: #6A6E71;
+  padding: 20px 0;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Courgette', cursive;
+
+}
+
+.Footer span {
+  text-align: center;
+  font-weight: bold;
+  float: left;
+  line-height: 20px;
+}
+
+.Footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  float: right;
+}
+
+.Footer ul li {
+  display: inline-block;
+}
+
+.Footer ul li:hover {
+  color: #FFF;
+  cursor: pointer;
+}
+
+/* End Footer */
+/*Start Framework*/
